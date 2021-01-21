@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE bookcase SYSTEM "bookcase.dtd">
+<bookcase>
+    <bookshelf number="0">
+        <book title="Достоевский. Преступление и наказание">
+            <intro pages="120"/>
+            <chapter title="Глава 1" pages="20"/>
+            <chapter title="Глава 2" pages="65"/>
+            <chapter title="Глава 3" pages="126"/>
+        </book>
+        <book title="Разработка на языке Java">
+            <intro pages="16"/>
+            <chapter title="Глава 1" pages="43"/>
+            <chapter title="Глава 2" pages="65"/>
+            <chapter title="Глава 3" pages="116"/>
+        </book>
+    </bookshelf>
+    <bookshelf number="1">
+        <book title="Как правильно готовить яичницу">
+            <intro pages="1"/>
+            <chapter title="История успеха" pages="1000"/>
+            <chapter title="Готовка" pages="1"/>
+            <chapter title="Презентация" pages="1"/>
+        </book>
+        <book title="1000 пустых страниц">
+            <intro pages="10"/>
+            <chapter title="" pages="990"/>
+            <pages>1000</pages>
+        </book>
+    </bookshelf>
+</bookcase>

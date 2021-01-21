@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <!ELEMENT bookcase (bookshelf*)>
+        <!ELEMENT bookshelf (book*)>
+        <!ATTLIST bookshelf
+                number CDATA #REQUIRED
+                >
+
+        <!ELEMENT book (intro, chapter*, pages?)>
+        <!ATTLIST book
+                title CDATA #REQUIRED
+                >
+
+        <!ELEMENT intro EMPTY>
+        <!ATTLIST intro
+                pages CDATA #REQUIRED
+                >
+
+        <!ELEMENT chapter EMPTY>
+        <!ATTLIST chapter
+                title CDATA #REQUIRED
+                pages CDATA #REQUIRED
+                >
+
+        <!ELEMENT pages (#PCDATA)>
